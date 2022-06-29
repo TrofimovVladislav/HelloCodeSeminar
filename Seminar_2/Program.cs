@@ -97,7 +97,7 @@
 // int num = Convert.ToInt32(Redline());
 // string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 // Console.WriteLine(weekDays[num-1]);
-------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------
 // ДЗ ко второму семинару:
 
 // Задача №10
@@ -110,13 +110,12 @@
 
 // Вариант решения №2
 
-int findeSecNum(int any)
+int showSecDigit(int threeDigNum)
 {
-    Console.Write("Введите трехзначное число: ");
-    int threeNum = Convert.ToInt32(Console.ReadLine());
-    int secNum = Math.Abs(threeNum%100 - threeNum%10)/10;
-    Console.WriteLine(secNum);
-    return secNum;
+    Console.WriteLine($"Ваше число: {threeDigNum}.");
+    int secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
+    Console.Write($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}. ");
+    return secDigit;
 }
 
-findeSecNum(479);
+showSecDigit(195);
