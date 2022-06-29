@@ -153,9 +153,6 @@
 //     if (i % 2 == 0)
 //         Console.Write($"{i}, ");
 
-
-
-
 // Console.Write("Введите трехзначное число: ");
 // int number1 = Convert.ToInt32(Console.ReadLine());
 // int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
