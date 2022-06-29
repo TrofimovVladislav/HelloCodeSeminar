@@ -40,18 +40,18 @@
 // Console.WriteLine(firstnum * 10 + thirdnum);
 
 // Вариант 2 (решение через функцию)
-int sumthing(int start, int finish)
-{
-    int numberA = new Random().Next(start, finish);
-    Console.WriteLine(numberA);
-    int firstnum = numberA / 100;
-    int thirdnum = numberA % 10;
-    int result = (firstnum * 10 + thirdnum);
-    Console.WriteLine(result);
-    return result;
-}
+// int sumthing(int start, int finish)
+// {
+//     int numberA = new Random().Next(start, finish);
+//     Console.WriteLine(numberA);
+//     int firstnum = numberA / 100;
+//     int thirdnum = numberA % 10;
+//     int result = (firstnum * 10 + thirdnum);
+//     Console.WriteLine(result);
+//     return result;
+// }
 
-sumthing(100, 999);
+// sumthing(100, 999);
 
 // int A = sumthing(100, 999);
 // Console.WriteLine(A);
@@ -97,4 +97,26 @@ sumthing(100, 999);
 // int num = Convert.ToInt32(Redline());
 // string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 // Console.WriteLine(weekDays[num-1]);
+------------------------------------------------------------------------------------------
+// ДЗ ко второму семинару:
 
+// Задача №10
+
+// Вариант решения №1
+// Console.Write("Введите трехзначное число: ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
+// Console.WriteLine(secondNum);
+
+// Вариант решения №2
+
+int findeSecNum(int any)
+{
+    Console.Write("Введите трехзначное число: ");
+    int threeNum = Convert.ToInt32(Console.ReadLine());
+    int secNum = Math.Abs(threeNum%100 - threeNum%10)/10;
+    Console.WriteLine(secNum);
+    return secNum;
+}
+
+findeSecNum(479);
