@@ -97,26 +97,69 @@
 // int num = Convert.ToInt32(Redline());
 // string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 // Console.WriteLine(weekDays[num-1]);
-// ------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------
+
 // ДЗ ко второму семинару:
 
 // Задача №10
+// Напишите программу, которая принимает на вод трёхзначное число и на выходе
+// показывает ВТОРУЮ цифру этого числа.
 
 // Вариант решения №1
 
-Console.Write("Введите трехзначное число: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
-int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
-Console.WriteLine($"Вторая цифра числа это: {secondNum}.");
+// Console.Write("Введите трёхзначное число: ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
+// Console.WriteLine($"Вторая цифра Вашего числа это: {secondNum}.");
 
-// Вариант решения №2
+// Вариант решения №2 (через функцию)
 
 // int showSecDigit(int threeDigNum)
 // {
 //     Console.WriteLine($"Ваше число: {threeDigNum}.");
 //     int secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
-//     Console.Write($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}. ");
+//     Console.WriteLine($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}. ");
 //     return secDigit;
 // }
 
-// showSecDigit(195);
+// showSecDigit(917);
+
+// -------------------------------------------------------------------------------------------
+// Задача №13
+// Напишите программу, которая выводит ТРЕТЬЮ цифру заданного числа
+// или сообщает, что её нет.
+
+// Console.WriteLine("Введите число: ");
+// int thirdDigNum = Convert.ToInt32(Console.ReadLine());
+// int thirdDigit = thirdDigNum % 10;
+
+// if (thirdDigNum / 100 == 0)
+// {
+//     Console.WriteLine("В этом числе третьей цифры НЕТ!");
+// }
+// else
+// {
+//     Console.WriteLine($"Третья цифра в этом числе это {thirdDigit};");
+// }
+
+// -------------------------------------------------------------------------------------------
+// Задача №15
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели,
+// и проверяет, является ли этот джень выходным.
+
+string[] WeekDay;
+WeekDay = new string [7] {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
+Console.WriteLine("Введите номер дня недели: ");
+int weekDayNumber = Convert.ToInt32(Console.ReadLine());
+int leng = WeekDay.Length;
+Console.WriteLine(leng);
+
+if (weekDayNumber <= leng-2)
+{
+    Console.WriteLine("День недели с таким номером не является выходны днем.");
+}
+else
+{
+    Console.WriteLine("Этот день недели ВЫХОДНОЙ!");
+}
