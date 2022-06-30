@@ -80,11 +80,11 @@
 //     i++;
 // }
 
-int[] findeNumSqrt(int numN)
+int[] findeNumSqrt(int num)
 {
-    Console.WriteLine("Введите число: ");
-    int A = Convert.ToInt32(Console.ReadLine());
-    int[] numSqrt = new int[numN];
+    // Console.WriteLine("Введите число: ");
+    int numN = Convert.ToInt32(Console.ReadLine());
+        int[] numSqrt = new int[numN];
     int i = 1;
     while (i <= numN)
     {
@@ -94,4 +94,4 @@ int[] findeNumSqrt(int numN)
         return numSqrt;
     }
 }
-int[] result = findeNumSqrt(5);
+int[] = findeNumSqrt(5);
