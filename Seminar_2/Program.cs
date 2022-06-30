@@ -108,40 +108,40 @@
 
 // Вариант решения №1
 
-// Console.Write("Введите трёхзначное число: ");
-// int number1 = Convert.ToInt32(Console.ReadLine());
-// int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
-// Console.WriteLine($"Вторая цифра Вашего числа это: {secondNum}.");
+Console.Write("Введите трёхзначное число: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
+Console.WriteLine($"Вторая цифра Вашего числа это: {secondNum}.");
 
 // Вариант решения №2 (через функцию)
 
-// int showSecDigit(int threeDigNum)
-// {
-//     Console.WriteLine($"Ваше число: {threeDigNum}.");
-//     int secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
-//     Console.WriteLine($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}. ");
-//     return secDigit;
-// }
+int showSecDigit(int threeDigNum)
+{
+    Console.WriteLine($"Ваше число: {threeDigNum}.");
+    int secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
+    Console.WriteLine($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}. ");
+    return secDigit;
+}
 
-// showSecDigit(917);
+showSecDigit(917);
 
 // -------------------------------------------------------------------------------------------
 // Задача №13
 // Напишите программу, которая выводит ТРЕТЬЮ цифру заданного числа
 // или сообщает, что её нет.
 
-// Console.WriteLine("Введите число: ");
-// int thirdDigNum = Convert.ToInt32(Console.ReadLine());
-// int thirdDigit = thirdDigNum % 10;
+Console.WriteLine("Введите число: ");
+int thirdDigNum = Convert.ToInt32(Console.ReadLine());
+int thirdDigit = thirdDigNum % 10;
 
-// if (thirdDigNum / 100 == 0)
-// {
-//     Console.WriteLine("В этом числе третьей цифры НЕТ!");
-// }
-// else
-// {
-//     Console.WriteLine($"Третья цифра в этом числе это {thirdDigit};");
-// }
+if (thirdDigNum / 100 == 0)
+{
+    Console.WriteLine("В этом числе третьей цифры НЕТ!");
+}
+else
+{
+    Console.WriteLine($"Третья цифра в этом числе это {thirdDigit};");
+}
 
 // -------------------------------------------------------------------------------------------
 // Задача №15
