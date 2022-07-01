@@ -148,17 +148,22 @@ else
 // Напишите программу, которая принимает на вход цифру, обозначающую день недели,
 // и проверяет, является ли этот джень выходным.
 
-string[] WeekDay;
-WeekDay = new string [7] {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
+string[] WeekDay = new string [] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
 Console.WriteLine("Введите номер дня недели: ");
 int weekDayNumber = Convert.ToInt32(Console.ReadLine());
-int leng = WeekDay.Length;
 
-if (weekDayNumber <= 5)
+if (weekDayNumber > 7 || weekDayNumber < 1)
 {
-    Console.WriteLine("День недели с таким номером не является выходны днем.");
+    Console.WriteLine("Такого дня недели не существует");
 }
 else
 {
-    Console.WriteLine("Этот день недели ВЫХОДНОЙ!");
+    if (weekDayNumber == 6 || weekDayNumber == 7)
+    {
+        Console.WriteLine("Выходной");
+    }
+    else
+    {
+        Console.WriteLine("Не выходной");
+    }
 }
