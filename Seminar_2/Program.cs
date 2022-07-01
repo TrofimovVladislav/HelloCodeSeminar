@@ -113,7 +113,7 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 int secondNum = Math.Abs(number1 % 100 - number1 % 10) / 10;
 Console.WriteLine($"Вторая цифра Вашего числа это: {secondNum}.");
 
-// Вариант решения №2 (через функцию)
+// // Вариант решения №2 (через функцию)
 
 int showSecDigit(int threeDigNum)
 {
@@ -124,6 +124,16 @@ int showSecDigit(int threeDigNum)
 }
 
 showSecDigit(917);
+
+// Вариант 3 (с рандомным входящим числом) 
+
+// int threeDigNum, secDigit;
+
+// threeDigNum = new Random().Next(100, 999);
+// Console.WriteLine("Ваше число: " + threeDigNum);
+
+// secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
+// Console.WriteLine($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}.");
 
 // -------------------------------------------------------------------------------------------
 // Задача №13
