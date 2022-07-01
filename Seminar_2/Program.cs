@@ -132,7 +132,7 @@ showSecDigit(917);
 // threeDigNum = new Random().Next(100, 999);
 // Console.WriteLine("Ваше число: " + threeDigNum);
 
-// secDigit = Math.Abs(threeDigNum % 100 - threeDigNum % 10) / 10;
+// secDigit = (threeDigNum % 100 - threeDigNum % 10) / 10;
 // Console.WriteLine($"Мы нашли вторую цифру Вашего числа, и это цифра: {secDigit}.");
 
 // Вариант 4
