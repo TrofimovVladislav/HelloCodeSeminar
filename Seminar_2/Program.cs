@@ -160,10 +160,10 @@ else
 {
     if (weekDayNumber == 6 || weekDayNumber == 7)
     {
-        Console.WriteLine("Выходной");
+        Console.WriteLine("Это ВЫХОДНОЙ день");
     }
     else
     {
-        Console.WriteLine("Не выходной");
+        Console.WriteLine("Этот день не я вляется выходным");
     }
 }
