@@ -22,6 +22,9 @@
 //         Console.WriteLine("Это четвертая четверть");
 //     }
 // }
+// quarter(2, 4);
+// quarter(-2, 4);
+// quarter(-2,-4);
 // quarter(2,-4);
 
 // Задача №18
@@ -80,18 +83,69 @@
 //     i++;
 // }
 
-int[] findeNumSqrt(int numN)
+// int[] findeNumSqrt(int numN)
+// {
+//     // Console.WriteLine("Введите число: ");
+//     int numN = Convert.ToInt32(Console.ReadLine());
+//         int[] numSqrt = new int[numN];
+//     int i = 1;
+//     while (i <= numN)
+//     {
+//         numSqrt[i-1] = i*i;
+//         Console.WriteLine(numSqrt[i - 1]);
+//         i++;
+//         return numSqrt;
+//     }
+// }
+// int[] numSqrt = findeNumSqrt(5);
+
+
+string[] WeekDay = new string [] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
+Console.WriteLine("Введите номер дня недели: ");
+int weekDayNumber = Convert.ToInt32(Console.ReadLine());
+
+if (weekDayNumber > 7 || weekDayNumber < 1)
 {
-    // Console.WriteLine("Введите число: ");
-    int numN = Convert.ToInt32(Console.ReadLine());
-        int[] numSqrt = new int[numN];
-    int i = 1;
-    while (i <= numN)
+    Console.WriteLine("Такого дня недели не существует");
+}
+else
+{
+    if (weekDayNumber == 6 || weekDayNumber == 7)
     {
-        numSqrt[i-1] = i*i;
-        Console.WriteLine(numSqrt[i - 1]);
-        i++;
-        return numSqrt;
+        Console.WriteLine("Выходной");
+    }
+    else
+    {
+        Console.WriteLine("Не выходной");
     }
 }
-int[] numSqrt = findeNumSqrt(5);
+
+
+// Вариант для числа любой разрядности (вариант Елены)
+
+int x = x;
+ 
+void hasThirdNumber(int x);
+{   
+    int div = 1;
+    while (x / div >= 10)
+    {
+        div *= 10;
+    }
+
+    if (div < 100)
+    {
+        Console.WriteLine("Too little Number");
+    }
+    else
+    {
+        // Last number jf x / (div/100) % 10;
+        Console.WriteLine("Third is {0}", digit);
+    }
+}
+
+hasThirdNumber(12);
+hasThirdNumber(123);
+hasThirdNumber(1234);
+hasThirdNumber(12345);
+hasThirdNumber(987654);
