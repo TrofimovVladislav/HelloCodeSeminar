@@ -153,7 +153,6 @@ WeekDay = new string [7] {"Понедельник", "Вторник", "Сред�
 Console.WriteLine("Введите номер дня недели: ");
 int weekDayNumber = Convert.ToInt32(Console.ReadLine());
 int leng = WeekDay.Length;
-Console.WriteLine(leng);
 
 if (weekDayNumber <= leng-2)
 {
