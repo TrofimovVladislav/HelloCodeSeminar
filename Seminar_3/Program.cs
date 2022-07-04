@@ -62,16 +62,18 @@
 // double L = findeLengthAB (7, -5, 1, -1);
 // Console.WriteLine(L);
 
+//--------------------------------------------------------------
 // Задача №22
+// Найти квадраты чисел от 1 до N
 
-Console.WriteLine("Введите число: ");
-int numN = Convert.ToInt32(Console.ReadLine());
-int[] numSqrt = new int[numN];
-for (int i = 1; i <= numN; i++)
-{
-    numA[i - 1] = i * i; // Массив новый для результата
-    Console.WriteLine(numA[i - 1]);
-}
+// Console.WriteLine("Введите число: ");
+// int numN = Convert.ToInt32(Console.ReadLine());
+// int[] numSqrt = new int[numN];
+// for (int i = 1; i <= numN; i++)
+// {
+//     numSqrt[i - 1] = i * i; // Массив новый для результата
+//     Console.Write(numSqrt[i - 1]);
+// }
 
 // Console.WriteLine("Введите число: ");
 // int numN = Convert.ToInt32(Console.ReadLine());
@@ -79,25 +81,25 @@ for (int i = 1; i <= numN; i++)
 // int i = 1;
 // while (i <= numN)
 // {
-//     Console.WriteLine(numA[i - 1]);
+//     numSqrt[i-1] = Convert.ToInt32(Math.Pow(i, 3));
+//     Console.WriteLine(numSqrt[i - 1]);
 //     i++;
 // }
 
 // int[] findeNumSqrt(int numN)
 // {
-//     // Console.WriteLine("Введите число: ");
-//     int numN = Convert.ToInt32(Console.ReadLine());
-//         int[] numSqrt = new int[numN];
+//     int[] numSqrt = new int[numN];
 //     int i = 1;
 //     while (i <= numN)
 //     {
-//         numSqrt[i-1] = i*i;
+//         numSqrt[i - 1] = i * i;
 //         Console.WriteLine(numSqrt[i - 1]);
 //         i++;
-//         return numSqrt;
 //     }
+//     return numSqrt;
 // }
-// int[] numSqrt = findeNumSqrt(5);
+
+// int[] result = findeNumSqrt(3);
 
 
 // string[] WeekDay = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
@@ -105,27 +107,27 @@ for (int i = 1; i <= numN; i++)
 // int weekDayNumber = Convert.ToInt32(Console.ReadLine());
 
 
-// Вариант для нахождения 3-уй цифры числа любой разрядности (вариант Елены)
+// Вариант для нахождения 3-ей цифры числа любой разрядности (вариант Елены)
 
-void hasThirdNumber(int x)
-{
-    int div = 1;
-    while (x / div >= 10)
-    {
-        div *= 10;
-        Console.WriteLine(div);
-    }
+// void hasThirdNumber(int x)
+// {
+//     int div = 1;
+//     while (x / div >= 10)
+//     {
+//         div *= 10;
+//         Console.WriteLine(div);
+//     }
 
-    if (div < 100)
-    {
-        Console.WriteLine("Too little Number");
-    }
-    else
-    {   // Last number of x / (div/100)  123456
-        int digit = (x / (div / 100)) % 10;
-        Console.WriteLine("Third is {0}", digit);
-    }
-}
+//     if (div < 100)
+//     {
+//         Console.WriteLine("Too little Number");
+//     }
+//     else
+//     {   // Last number of x / (div/100)  123456
+//         int digit = (x / (div / 100)) % 10;
+//         Console.WriteLine("Third is {0}", digit);
+//     }
+// }
 
 // hasThirdNumber(12);
 // hasThirdNumber(129);
@@ -142,16 +144,16 @@ void hasThirdNumber(int x)
 23432 -> да
 */
 
-// m1: Console.WriteLine("Введите пятизначное число: ");
-// int polindrom = Convert.ToInt32(Console.ReadLine());
-// string num1 = polindrom.ToString();
-// if (num1.Length != 5) goto m1;
-// char[] polArr = num1.ToCharArray();
-// Array.Reverse(polArr);
-// num1 = new String(polArr);
-// int polindrom2 = Convert.ToInt32(num1);
-// if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
-// else Console.WriteLine("Это число не Полиндром");
+m1: Console.WriteLine("Введите пятизначное число: ");
+int polindrom = Convert.ToInt32(Console.ReadLine());
+string num1 = polindrom.ToString();
+if (num1.Length != 5) goto m1;
+char[] polArr = num1.ToCharArray();
+Array.Reverse(polArr);
+num1 = new String(polArr);
+int polindrom2 = Convert.ToInt32(num1);
+if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
+else Console.WriteLine("Это число не Полиндром");
 
 // Console.WriteLine(polArr);
 
@@ -177,14 +179,14 @@ void hasThirdNumber(int x)
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
-double hasLength(double xa, double ya, double za, double xb, double yb, double zb)
-{
-    if (xa == xb && ya == yb && za == zb) return 0;
+// double hasLength(double xa, double ya, double za, double xb, double yb, double zb)
+// {
+//     if (xa == xb && ya == yb && za == zb) return 0;
 
-    double result = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));
-    return result;
-}
-double d = hasLength(3, 6, 8, 2, 1, -7);
+//     double result = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));
+//     return result;
+// }
+// double d = hasLength(3, 6, 8, 2, 1, -7);
 // Console.WriteLine(d);
 // double d1 = hasLength(7, -5, 0, 1, -1, 9);
 // Console.WriteLine(d1);
@@ -197,9 +199,26 @@ double d = hasLength(3, 6, 8, 2, 1, -7);
 5 -> 1, 8, 27, 64, 125
 */
 
-// Console.WriteLine("Введите число: ");
-// int cube = new Random().Next(1, 3);
-// for(int i = 1; i <= 3;i++)
+// int[] findeNumQube(int numN)
 // {
-//     Math.Pow(cube[i]);
+//     int[] numQube = new int[numN];
+//     int i = 1;
+//     while (i <= numN)
+//     {
+//         numQube[i - 1] = Convert.ToInt32(Math.Pow(i, 3));
+//         Console.Write(numQube[i - 1] + ", ");
+//         i++;
+//     }
+//     return numQube;
 // }
+// Console.WriteLine("Кубы цифр от 1 до 3:"); 
+// int[]numQube = findeNumQube(3);
+// Console.WriteLine();
+// Console.WriteLine("Кубы чисел от 1 до 5:");
+// int[]numQube1 = findeNumQube(5);
+
+
+
+
+
+
