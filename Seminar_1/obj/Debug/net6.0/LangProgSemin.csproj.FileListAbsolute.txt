@@ -43,3 +43,11 @@ E:\GB\LangProgSemin\Seminar_1\obj\Debug\net6.0\refint\LangProgSemin.dll
 E:\GB\LangProgSemin\Seminar_1\obj\Debug\net6.0\LangProgSemin.pdb
 E:\GB\LangProgSemin\Seminar_1\obj\Debug\net6.0\LangProgSemin.genruntimeconfig.cache
 E:\GB\LangProgSemin\Seminar_1\obj\Debug\net6.0\ref\LangProgSemin.dll
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.csproj.AssemblyReference.cache
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.AssemblyInfoInputs.cache
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.AssemblyInfo.cs
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.csproj.CoreCompileInputs.cache
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.dll
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\refint\LangProgSemin.dll
+D:\VSC\HelloCodeSeminar\Seminar_1\obj\Debug\net6.0\LangProgSemin.pdb

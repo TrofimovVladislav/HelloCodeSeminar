@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Влад\\.nuget\\packages\\": {}
+    "C:\\Users\\Бух\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GB\\LangProgSemin\\Seminar_1\\LangProgSemin.csproj",
+      "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj",
       "projectName": "LangProgSemin",
-      "projectPath": "E:\\GB\\LangProgSemin\\Seminar_1\\LangProgSemin.csproj",
-      "packagesPath": "C:\\Users\\Влад\\.nuget\\packages\\",
-      "outputPath": "E:\\GB\\LangProgSemin\\Seminar_1\\obj\\",
+      "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj",
+      "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
+      "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Влад\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
