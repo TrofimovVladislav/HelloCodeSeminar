@@ -71,7 +71,7 @@
 // int[] numSqrt = new int[numN];
 // for (int i = 1; i <= numN; i++)
 // {
-//     numSqrt[i - 1] = i * i; // Массив новый для результата
+//     numSqrt[i-1] = i * i; // Массив новый для результата
 //     Console.Write(numSqrt[i - 1]);
 // }
 
@@ -144,16 +144,16 @@
 23432 -> да
 */
 
-m1: Console.WriteLine("Введите пятизначное число: ");
-int polindrom = Convert.ToInt32(Console.ReadLine());
-string num1 = polindrom.ToString();
-if (num1.Length != 5) goto m1;
-char[] polArr = num1.ToCharArray();
-Array.Reverse(polArr);
-num1 = new String(polArr);
-int polindrom2 = Convert.ToInt32(num1);
-if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
-else Console.WriteLine("Это число не Полиндром");
+// m1: Console.WriteLine("Введите пятизначное число: ");
+// int polindrom = Convert.ToInt32(Console.ReadLine());
+// string num1 = polindrom.ToString();
+// if (num1.Length != 5) goto m1;
+// char[] polArr = num1.ToCharArray();
+// Array.Reverse(polArr);
+// num1 = new String(polArr);
+// int polindrom2 = Convert.ToInt32(num1);
+// if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
+// else Console.WriteLine("Это число не Полиндром");
 
 // Console.WriteLine(polArr);
 
@@ -167,10 +167,9 @@ else Console.WriteLine("Это число не Полиндром");
 //     int polindrom2 = Convert.ToInt32(num1);
 //     if (number == polindrom2) Console.WriteLine("Это число Полиндром");
 //     else Console.WriteLine("Это число не Полиндром");
-
 //     Console.WriteLine(polArr);
 // }
-// isPolindrom(5624881);
+// // isPolindrom(5624881);
 
 /* -------------------------------------------------------------------------------
 Задача 21
@@ -217,8 +216,51 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 // Console.WriteLine("Кубы чисел от 1 до 5:");
 // int[]numQube1 = findeNumQube(5);
 
+// Найти кубы чиселот1 до N.
+// int[] hasCube()
+// {
+//     Console.WriteLine("Введите число: ");
+//     int num = Convert.ToInt32(Console.ReadLine());
+//     Console.WriteLine("Ваше число: " + num);
+//     Console.WriteLine($"Кубы чисел от 1 до {num}:");
+//     int[] result = new int[num];
+//     for (int i = 1; i <= num; i++)
+//     {
+//         result[i - 1] = i * i * i;
+//         Console.WriteLine(result[i - 1]);
+//     }
+//     return result;
+// }
 
+// hasCube();
 
+// Найти сумму целых чисел от 1 до N
 
+// int hasSum()
+// {
+//     Console.WriteLine("Введите число: ");
+//     int A = Convert.ToInt32(Console.ReadLine());
+//     int sum = 0;
+//     int i = 1;
+//     while (i <= A)
+//     {
+//         sum = sum + i;
+//         i++;
+//     }
+//     Console.WriteLine(sum);
+//     return sum;
+// }
+// hasSum();
 
+void hasSum()
+{
+    Console.WriteLine("Введите число: ");
+    int A = Convert.ToInt32(Console.ReadLine());
+    int sum = 1;
 
+    for (int i = 1; i <= A; i++) sum *= i;
+    
+    Console.WriteLine(sum);
+    // return sum;
+}
+hasSum();
