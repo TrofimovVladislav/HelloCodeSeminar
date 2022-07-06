@@ -266,4 +266,4 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 // hasSum();
 
 
-Console.WrireLine()
+// Console.WrireLine();
