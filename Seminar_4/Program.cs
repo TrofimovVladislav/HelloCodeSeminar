@@ -43,16 +43,16 @@
 // }
 // proizv(5);
 
-int[] arr()
-{
-    int[] result = new int[8];
-    for(int i=0; i<8; i++)
-    {
-        int A = (new Random()).Next(0,2);
-        result[i]= A;
+// int[] arr()
+// {
+//     int[] result = new int[8];
+//     for(int i=0; i<8; i++)
+//     {
+//         int A = (new Random()).Next(0,2);
+//         result[i]= A;
         
-Console.Write(result[i] + " ");
-    }
-    return result;
-}
-arr();
+// Console.Write(result[i] + " ");
+//     }
+//     return result;
+// }
+// arr();

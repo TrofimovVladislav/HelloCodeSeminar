@@ -149,7 +149,7 @@ int polindrom = Convert.ToInt32(Console.ReadLine());
 string num1 = polindrom.ToString();
 char[] polArr = num1.ToCharArray();
 Array.Reverse(polArr);
-num1 = new String(polArr);
+num1 = new string(polArr);
 int polindrom2 = Convert.ToInt32(num1);
 if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
 else Console.WriteLine("Это число не Полиндром");

@@ -10,11 +10,11 @@
 23432 -> да
 */
 
-Console.WriteLine("Введите число: ");
-int numPol = Convert.ToInt32(Console.ReadLine());
-int [] polArr = new int [numPol];
-int i  =0;
-Console.WriteLine(polArr[i]);
+// Console.WriteLine("Введите число: ");
+// int numPol = Convert.ToInt32(Console.ReadLine());
+// int [] polArr = new int [numPol];
+// int i  =0;
+// Console.WriteLine(polArr[i]);
 
 // string num1 = polArr.ToString();
 // if (num1.Length != 5) char [] polArr = num1.ToCharArray();
@@ -32,7 +32,7 @@ Console.WriteLine(polArr[i]);
 //     string number1 = number.ToString();
 //     char[] polArr = number1.ToCharArray();
 //     Array.Reverse(polArr);
-//     string num1 = new String(polArr);
+//     string num1 = new string(polArr);
 //     int polindrom2 = Convert.ToInt32(num1);
 //     if (number == polindrom2) Console.WriteLine("Это число Полиндром");
 //     else Console.WriteLine("Это число не Полиндром");
@@ -128,7 +128,7 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 //     int sum = 1;
 
 //     for (int i = 1; i <= A; i++) sum *= i;
-    
+
 //     Console.WriteLine(sum);
 //     // return sum;
 // }
@@ -136,4 +136,9 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
 
 
-Console.WriteLine();
+Console.WriteLine("Введите число: ");
+int A = Convert.ToInt32(Console.ReadLine());
+string isPol = A.ToString();
+char[] pol1 = isPol.ToCharArray();
+Array.Reverse(pol1);
+isPol = new string[pol1];
