@@ -6,9 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Seminar_3
-<<<<<<< HEAD
-build_property.ProjectDir = d:\VSC\HelloCodeSeminar\Seminar_3\
-=======
-build_property.ProjectDir = e:\GB\LangProgSemin\Seminar_3\
->>>>>>> b56a326ea5f3ab97b0e6c157f0558c044cf9937a
+build_property.RootNamespace = Seminar_4
+build_property.ProjectDir = e:\GB\LangProgSemin\Seminar_4\

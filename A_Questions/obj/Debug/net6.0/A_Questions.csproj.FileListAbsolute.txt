@@ -1,0 +1,15 @@
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.csproj.AssemblyReference.cache
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.GeneratedMSBuildEditorConfig.editorconfig
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.AssemblyInfoInputs.cache
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.AssemblyInfo.cs
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.csproj.CoreCompileInputs.cache
+E:\GB\LangProgSemin\A_Questions\bin\Debug\net6.0\A_Questions.exe
+E:\GB\LangProgSemin\A_Questions\bin\Debug\net6.0\A_Questions.deps.json
+E:\GB\LangProgSemin\A_Questions\bin\Debug\net6.0\A_Questions.runtimeconfig.json
+E:\GB\LangProgSemin\A_Questions\bin\Debug\net6.0\A_Questions.dll
+E:\GB\LangProgSemin\A_Questions\bin\Debug\net6.0\A_Questions.pdb
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.dll
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\refint\A_Questions.dll
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.pdb
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\A_Questions.genruntimeconfig.cache
+E:\GB\LangProgSemin\A_Questions\obj\Debug\net6.0\ref\A_Questions.dll

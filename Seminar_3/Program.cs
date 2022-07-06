@@ -62,15 +62,17 @@
 // double L = findeLengthAB (7, -5, 1, -1);
 // Console.WriteLine(L);
 
+//--------------------------------------------------------------
 // Задача №22
+// Найти квадраты чисел от 1 до N
 
 // Console.WriteLine("Введите число: ");
 // int numN = Convert.ToInt32(Console.ReadLine());
 // int[] numSqrt = new int[numN];
 // for (int i = 1; i <= numN; i++)
 // {
-//     numA[i - 1] = i * i; // Массив новый для результата
-//     Console.WriteLine(numA[i - 1]);
+//     numSqrt[i-1] = i * i; // Массив новый для результата
+//     Console.Write(numSqrt[i - 1]);
 // }
 
 // Console.WriteLine("Введите число: ");
@@ -79,25 +81,25 @@
 // int i = 1;
 // while (i <= numN)
 // {
-//     Console.WriteLine(numA[i - 1]);
+//     numSqrt[i-1] = Convert.ToInt32(Math.Pow(i, 3));
+//     Console.WriteLine(numSqrt[i - 1]);
 //     i++;
 // }
 
 // int[] findeNumSqrt(int numN)
 // {
-//     // Console.WriteLine("Введите число: ");
-//     int numN = Convert.ToInt32(Console.ReadLine());
-//         int[] numSqrt = new int[numN];
+//     int[] numSqrt = new int[numN];
 //     int i = 1;
 //     while (i <= numN)
 //     {
-//         numSqrt[i-1] = i*i;
+//         numSqrt[i - 1] = i * i;
 //         Console.WriteLine(numSqrt[i - 1]);
 //         i++;
-//         return numSqrt;
 //     }
+//     return numSqrt;
 // }
-// int[] numSqrt = findeNumSqrt(5);
+
+// int[] result = findeNumSqrt(3);
 
 
 // string[] WeekDay = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
@@ -105,7 +107,7 @@
 // int weekDayNumber = Convert.ToInt32(Console.ReadLine());
 
 
-// Вариант для нахождения 3-уй цифры числа любой разрядности (вариант Елены)
+// Вариант для нахождения 3-ей цифры числа любой разрядности (вариант Елены)
 
 // void hasThirdNumber(int x)
 // {
@@ -165,10 +167,9 @@
 //     int polindrom2 = Convert.ToInt32(num1);
 //     if (number == polindrom2) Console.WriteLine("Это число Полиндром");
 //     else Console.WriteLine("Это число не Полиндром");
-
 //     Console.WriteLine(polArr);
 // }
-// isPolindrom(5624881);
+// // isPolindrom(5624881);
 
 /* -------------------------------------------------------------------------------
 Задача 21
@@ -197,26 +198,69 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 5 -> 1, 8, 27, 64, 125
 */
 
-// void hasNumCube(int number)
-// {   
-//    Console.WriteLine("Введите число: ");
-//    int n = Convert.ToInt32(Console.ReadLine());
-//    for(int i = 0; i<=n; i++)
-//    {
+// int[] findeNumQube(int numN)
+// {
+//     int[] numQube = new int[numN];
+//     int i = 1;
+//     while (i <= numN)
+//     {
+//         numQube[i - 1] = Convert.ToInt32(Math.Pow(i, 3));
+//         Console.Write(numQube[i - 1] + ", ");
+//         i++;
+//     }
+//     return numQube;
+// }
+// Console.WriteLine("Кубы цифр от 1 до 3:"); 
+// int[]numQube = findeNumQube(3);
+// Console.WriteLine();
+// Console.WriteLine("Кубы чисел от 1 до 5:");
+// int[]numQube1 = findeNumQube(5);
 
-//    }
+// Найти кубы чиселот1 до N.
+// int[] hasCube()
+// {
+//     Console.WriteLine("Введите число: ");
+//     int num = Convert.ToInt32(Console.ReadLine());
+//     Console.WriteLine("Ваше число: " + num);
+//     Console.WriteLine($"Кубы чисел от 1 до {num}:");
+//     int[] result = new int[num];
+//     for (int i = 1; i <= num; i++)
+//     {
+//         result[i - 1] = i * i * i;
+//         Console.WriteLine(result[i - 1]);
+//     }
+//     return result;
 // }
 
-// hasNumCube(3);
+// hasCube();
 
-int PrintArray(int[] col) // Метод печати массива
+// Найти сумму целых чисел от 1 до N
+
+// int hasSum()
+// {
+//     Console.WriteLine("Введите число: ");
+//     int A = Convert.ToInt32(Console.ReadLine());
+//     int sum = 0;
+//     int i = 1;
+//     while (i <= A)
+//     {
+//         sum = sum + i;
+//         i++;
+//     }
+//     Console.WriteLine(sum);
+//     return sum;
+// }
+// hasSum();
+
+void hasSum()
 {
-    int count = col.Length;
-    int position = 0;
-    while (position < count)
-    {
-        Console.WriteLine(col[position]);
-        position++;
-    }
+    Console.WriteLine("Введите число: ");
+    int A = Convert.ToInt32(Console.ReadLine());
+    int sum = 1;
+
+    for (int i = 1; i <= A; i++) sum *= i;
+    
+    Console.WriteLine(sum);
+    // return sum;
 }
-PrintArray(col);
+hasSum();
