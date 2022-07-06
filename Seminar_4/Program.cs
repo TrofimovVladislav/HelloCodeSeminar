@@ -37,22 +37,43 @@
 //     {
 //         result *= i;
 //     }
-    
+
 //     Console.WriteLine(result);
 //     return result;
 // }
 // proizv(5);
 
-int[] arr()
+// int[] arr()
+// {
+//     int[] result = new int[8];
+//     for(int i=0; i<8; i++)
+//     {
+//         int A = (new Random()).Next(0,2);
+//         result[i]= A;
+
+// Console.Write(result[i] + " ");
+//     }
+//     return result;
+// }
+// arr();
+
+int[] numbersSqrt()
 {
-    int[] result = new int[8];
-    for(int i=0; i<8; i++)
+    Console.WriteLine("Введите число: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Ваше число: " + num);
+    Console.WriteLine("Квадраты чисел от 1 до " + num);
+    int i = 1;
+    int[] sumSqrt = new int[num];
+
+    while (i <= num)
     {
-        int A = (new Random()).Next(0,2);
-        result[i]= A;
-        
-Console.Write(result[i] + " ");
+        sumSqrt[i - 1] = i * i;
+        Console.WriteLine(sumSqrt[i-1]);
+        i++;
     }
-    return result;
+    return sumSqrt;
 }
-arr();
+numbersSqrt();
+
+

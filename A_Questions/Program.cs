@@ -33,7 +33,7 @@ void hasSum()
     for (int i = 1; i <= A; i++) sum += i;
     
     Console.WriteLine(sum);   // void выводит значение sum без return?
-    // return sum;            // при intнужен return?
+    // return sum;            // при int нужен return?
 }
 
 hasSum();
