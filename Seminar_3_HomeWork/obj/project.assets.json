@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_3\\Seminar_3.csproj",
-      "projectName": "Seminar_3",
-      "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3\\Seminar_3.csproj",
+      "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
+      "projectName": "Seminar_3_HomeWork",
+      "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
       "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
-      "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3\\obj\\",
+      "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"

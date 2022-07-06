@@ -50,30 +50,9 @@
 //     {
 //         int A = (new Random()).Next(0,2);
 //         result[i]= A;
-
 // Console.Write(result[i] + " ");
 //     }
 //     return result;
 // }
 // arr();
-
-int[] numbersSqrt()
-{
-    Console.WriteLine("Введите число: ");
-    int num = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Ваше число: " + num);
-    Console.WriteLine("Квадраты чисел от 1 до " + num);
-    int i = 1;
-    int[] sumSqrt = new int[num];
-
-    while (i <= num)
-    {
-        sumSqrt[i - 1] = i * i;
-        Console.WriteLine(sumSqrt[i-1]);
-        i++;
-    }
-    return sumSqrt;
-}
-numbersSqrt();
-
 

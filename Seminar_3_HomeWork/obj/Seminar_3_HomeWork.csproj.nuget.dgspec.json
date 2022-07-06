@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj": {}
+    "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {}
   },
   "projects": {
-    "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj": {
+    "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj",
-        "projectName": "LangProgSemin",
-        "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\LangProgSemin.csproj",
+        "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
+        "projectName": "Seminar_3_HomeWork",
+        "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
         "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
-        "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_1\\obj\\",
+        "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
