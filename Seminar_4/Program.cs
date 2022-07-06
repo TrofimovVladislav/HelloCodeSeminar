@@ -56,3 +56,55 @@
 // }
 // arr();
 
+// Task 19 Palindrom
+// bool isPalindrom(int x)
+// {
+//     int div = 1;
+//     while (x / div <= 10)
+//     {
+//         div *= 10;
+//     }
+//     Console.WriteLine(div);
+//     while (x != 0)
+//     {
+//         int l = x / div;
+//         int r = x % 10;
+//         if (l != r)
+//         {
+//             Console.WriteLine("Not Palindrom");
+//             return false;
+//         }
+
+//         x = (x % div) / 10;
+//         div /= 100;
+//     }
+//     Console.WriteLine("Palindrom");
+//     return true;
+// }
+// isPalindrom(1598951);
+
+// Task 19 light version
+
+bool isPalindromLight(int[] arr)
+{
+    bool result = false;
+    int N = arr.Length;
+    for (int i = 0; i < N / 2; i++)
+    {
+        if (arr[i] != arr[N - i - 1])
+        {
+            Console.WriteLine("Not Palindrom");
+            return result;
+        }
+        result = true;
+        Console.WriteLine("Palindrom");
+
+        return result;
+    }
+}
+
+isPalindromLight(1235321);
+
+// получить массив из ReadLine
+int [] arr = Array.ConvertAll(Console.ReadLine()).Split(''), int.Parse);
+isPalindromLight(arr);
