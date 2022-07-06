@@ -64,14 +64,14 @@
 
 // Задача №22
 
-Console.WriteLine("Введите число: ");
-int numN = Convert.ToInt32(Console.ReadLine());
-int[] numSqrt = new int[numN];
-for (int i = 1; i <= numN; i++)
-{
-    numA[i - 1] = i * i; // Массив новый для результата
-    Console.WriteLine(numA[i - 1]);
-}
+// Console.WriteLine("Введите число: ");
+// int numN = Convert.ToInt32(Console.ReadLine());
+// int[] numSqrt = new int[numN];
+// for (int i = 1; i <= numN; i++)
+// {
+//     numA[i - 1] = i * i; // Массив новый для результата
+//     Console.WriteLine(numA[i - 1]);
+// }
 
 // Console.WriteLine("Введите число: ");
 // int numN = Convert.ToInt32(Console.ReadLine());
@@ -107,25 +107,25 @@ for (int i = 1; i <= numN; i++)
 
 // Вариант для нахождения 3-уй цифры числа любой разрядности (вариант Елены)
 
-void hasThirdNumber(int x)
-{
-    int div = 1;
-    while (x / div >= 10)
-    {
-        div *= 10;
-        Console.WriteLine(div);
-    }
+// void hasThirdNumber(int x)
+// {
+//     int div = 1;
+//     while (x / div >= 10)
+//     {
+//         div *= 10;
+//         Console.WriteLine(div);
+//     }
 
-    if (div < 100)
-    {
-        Console.WriteLine("Too little Number");
-    }
-    else
-    {   // Last number of x / (div/100)  123456
-        int digit = (x / (div / 100)) % 10;
-        Console.WriteLine("Third is {0}", digit);
-    }
-}
+//     if (div < 100)
+//     {
+//         Console.WriteLine("Too little Number");
+//     }
+//     else
+//     {   // Last number of x / (div/100)  123456
+//         int digit = (x / (div / 100)) % 10;
+//         Console.WriteLine("Third is {0}", digit);
+//     }
+// }
 
 // hasThirdNumber(12);
 // hasThirdNumber(129);
@@ -177,14 +177,14 @@ void hasThirdNumber(int x)
 A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
-double hasLength(double xa, double ya, double za, double xb, double yb, double zb)
-{
-    if (xa == xb && ya == yb && za == zb) return 0;
+// double hasLength(double xa, double ya, double za, double xb, double yb, double zb)
+// {
+//     if (xa == xb && ya == yb && za == zb) return 0;
 
-    double result = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));
-    return result;
-}
-double d = hasLength(3, 6, 8, 2, 1, -7);
+//     double result = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));
+//     return result;
+// }
+// double d = hasLength(3, 6, 8, 2, 1, -7);
 // Console.WriteLine(d);
 // double d1 = hasLength(7, -5, 0, 1, -1, 9);
 // Console.WriteLine(d1);
@@ -197,9 +197,26 @@ double d = hasLength(3, 6, 8, 2, 1, -7);
 5 -> 1, 8, 27, 64, 125
 */
 
-// Console.WriteLine("Введите число: ");
-// int cube = new Random().Next(1, 3);
-// for(int i = 1; i <= 3;i++)
-// {
-//     Math.Pow(cube[i]);
+// void hasNumCube(int number)
+// {   
+//    Console.WriteLine("Введите число: ");
+//    int n = Convert.ToInt32(Console.ReadLine());
+//    for(int i = 0; i<=n; i++)
+//    {
+
+//    }
 // }
+
+// hasNumCube(3);
+
+int PrintArray(int[] col) // Метод печати массива
+{
+    int count = col.Length;
+    int position = 0;
+    while (position < count)
+    {
+        Console.WriteLine(col[position]);
+        position++;
+    }
+}
+PrintArray(col);
