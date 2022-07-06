@@ -10,35 +10,23 @@
 23432 -> да
 */
 
-// Console.WriteLine("Введите число: ");
-// int numPol = Convert.ToInt32(Console.ReadLine());
-// int [] polArr = new int [numPol];
-// int i  =0;
-// Console.WriteLine(polArr[i]);
-
-// string num1 = polArr.ToString();
-// if (num1.Length != 5) char [] polArr = num1.ToCharArray();
-// Array.Reverse(polArr);
-// num1 = new String(polArr);
-// int numPol2 = Convert.ToInt32(num1);
-// if (numPol == numPol2) Console.WriteLine("Это число Полиндром");
-// else Console.WriteLine("Это число не Полиндром");
-
-// Console.WriteLine(polArr);
-
-// void isPolindrom(int number)
+// void isPalindrom(int num)
 // {
-//     // int polindrom = Convert.ToInt32(Console.ReadLine());
-//     string number1 = number.ToString();
-//     char[] polArr = number1.ToCharArray();
-//     Array.Reverse(polArr);
-//     string num1 = new string(polArr);
-//     int polindrom2 = Convert.ToInt32(num1);
-//     if (number == polindrom2) Console.WriteLine("Это число Полиндром");
-//     else Console.WriteLine("Это число не Полиндром");
-//     Console.WriteLine(polArr);
+// string numA = num.ToString();
+// char[] arrNumA = numA.ToCharArray();
+// Array.Reverse(arrNumA);
+// string numB = new string(arrNumA);
+// Console.WriteLine(num);
+// if (numA == numB) Console.WriteLine("Это число Палиндром");
+// else Console.WriteLine("Это число не Палиндром");
 // }
-// isPolindrom(12363214);
+
+// isPalindrom(14212);
+// Console.WriteLine();
+// isPalindrom(12821);
+// Console.WriteLine();
+// isPalindrom(23432);
+// Console.WriteLine();
 
 /* -------------------------------------------------------------------------------
 Задача 21
@@ -67,78 +55,48 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 5 -> 1, 8, 27, 64, 125
 */
 
+//------------------------------------------------
+// Вариант 1 (for)
+
+// int[] hasCube(int num)
+// {
+//     Console.WriteLine("Ваше число: " + num);
+//     Console.WriteLine($"Кубы чисел от 1 до {num}:");
+//     int[] numsQube= new int[num];
+
+//     for (int i = 1; i <= num; i++)
+//     {
+//         numsQube[i - 1] = i * i * i;
+//         Console.WriteLine(numsQube[i - 1]);
+//     }
+
+//     return numsQube;
+// }
+
+// hasCube(3);
+// Console.WriteLine();
+// hasCube(5);
+
+//-----------------------------------------------------
+// Вариант 2 (While, Math.Pow)
+
 // int[] findeNumQube(int numN)
 // {
 //     int[] numQube = new int[numN];
 //     int i = 1;
+//     Console.WriteLine("Кубы цифр от 1 до " + numN + ":");
+
 //     while (i <= numN)
 //     {
 //         numQube[i - 1] = Convert.ToInt32(Math.Pow(i, 3));
 //         Console.Write(numQube[i - 1] + ", ");
 //         i++;
 //     }
+
+//     Console.WriteLine();
 //     return numQube;
 // }
-// Console.WriteLine("Кубы цифр от 1 до 3:"); 
-// int[]numQube = findeNumQube(3);
-// Console.WriteLine();
-// Console.WriteLine("Кубы чисел от 1 до 5:");
-// int[]numQube1 = findeNumQube(5);
 
-// Найти кубы чиселот1 до N.
-// int[] hasCube()
-// {
-//     Console.WriteLine("Введите число: ");
-//     int num = Convert.ToInt32(Console.ReadLine());
-//     Console.WriteLine("Ваше число: " + num);
-//     Console.WriteLine($"Кубы чисел от 1 до {num}:");
-//     int[] result = new int[num];
-//     for (int i = 1; i <= num; i++)
-//     {
-//         result[i - 1] = i * i * i;
-//         Console.WriteLine(result[i - 1]);
-//     }
-//     return result;
-// }
+// findeNumQube(3);
+// findeNumQube(5);
 
-// hasCube();
-
-// Найти сумму целых чисел от 1 до N
-
-// int hasSum()
-// {
-//     Console.WriteLine("Введите число: ");
-//     int A = Convert.ToInt32(Console.ReadLine());
-//     int sum = 0;
-//     int i = 1;
-//     while (i <= A)
-//     {
-//         sum = sum + i;
-//         i++;
-//     }
-//     Console.WriteLine(sum);
-//     return sum;
-// }
-// hasSum();
-
-// void hasSum()
-// {
-//     Console.WriteLine("Введите число: ");
-//     int A = Convert.ToInt32(Console.ReadLine());
-//     int sum = 1;
-
-//     for (int i = 1; i <= A; i++) sum *= i;
-
-//     Console.WriteLine(sum);
-//     // return sum;
-// }
-// hasSum();
-
-
-
-Console.WriteLine("Введите число: ");
-int A = Convert.ToInt32(Console.ReadLine());
-string isPol = A.ToString();
-char[] pol1 = isPol.ToCharArray();
-Array.Reverse(pol1);
-isPol = new string[pol1];
