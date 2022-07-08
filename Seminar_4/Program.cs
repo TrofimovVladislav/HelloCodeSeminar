@@ -85,26 +85,26 @@
 
 // Task 19 light version
 
-bool isPalindromLight(int[] arr)
-{
-    bool result = false;
-    int N = arr.Length;
-    for (int i = 0; i < N / 2; i++)
-    {
-        if (arr[i] != arr[N - i - 1])
-        {
-            Console.WriteLine("Not Palindrom");
-            return result;
-        }
-        result = true;
-        Console.WriteLine("Palindrom");
+// bool isPalindromLight(int[] arr)
+// {
+//     bool result = false;
+//     int N = arr.Length;
+//     for (int i = 0; i < N / 2; i++)
+//     {
+//         if (arr[i] != arr[N - i - 1])
+//         {
+//             Console.WriteLine("Not Palindrom");
+//             return result;
+//         }
+//         result = true;
+//         Console.WriteLine("Palindrom");
 
-        return result;
-    }
-}
+//         return result;
+//     }
+// }
 
-isPalindromLight(1235321);
+// isPalindromLight(1235321);
 
 // получить массив из ReadLine
-int [] arr = Array.ConvertAll(Console.ReadLine()).Split(''), int.Parse);
-isPalindromLight(arr);
+// int [] arr = Array.ConvertAll(Console.ReadLine()).Split(''), int.Parse);
+// isPalindromLight(arr);
