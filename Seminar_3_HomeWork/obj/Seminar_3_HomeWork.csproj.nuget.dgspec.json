@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {}
+    "E:\\GB\\LangProgSemin\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {}
   },
   "projects": {
-    "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {
+    "E:\\GB\\LangProgSemin\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
+        "projectUniqueName": "E:\\GB\\LangProgSemin\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
         "projectName": "Seminar_3_HomeWork",
-        "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
-        "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
-        "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_3_HomeWork\\obj\\",
+        "projectPath": "E:\\GB\\LangProgSemin\\Seminar_3_HomeWork\\Seminar_3_HomeWork.csproj",
+        "packagesPath": "C:\\Users\\Влад\\.nuget\\packages\\",
+        "outputPath": "E:\\GB\\LangProgSemin\\Seminar_3_HomeWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Влад\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
