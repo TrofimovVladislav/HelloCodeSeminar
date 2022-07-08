@@ -86,14 +86,14 @@ Console.WriteLine("Решение задачи 29 (Вариант 2: Random):");
 void PrintArray2(int N)
 {
     Console.WriteLine("Искомый массив: ");
-    int[] pN = new int[N];
+    int[] printN = new int[N];
     int i = 1;
     Random rand = new Random();
     while (i <= N)
     {
         int numN = rand.Next(1, 99);
-        pN[i - 1] = numN;
-        Console.Write(pN[i - 1] + ", ");
+        printN[i - 1] = numN;
+        Console.Write(printN[i - 1] + ", ");
         i++;
     }
     Console.WriteLine();
