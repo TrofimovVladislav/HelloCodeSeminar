@@ -144,16 +144,16 @@
 23432 -> да
 */
 
-Console.WriteLine("Введите пятизначное число: ");
-int polindrom = Convert.ToInt32(Console.ReadLine());
-string num1 = polindrom.ToString();
-char[] polArr = num1.ToCharArray();
-Array.Reverse(polArr);
-num1 = new string(polArr);
-int polindrom2 = Convert.ToInt32(num1);
-if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
-else Console.WriteLine("Это число не Полиндром");
-Console.WriteLine(polindrom2);
+// Console.WriteLine("Введите пятизначное число: ");
+// int polindrom = Convert.ToInt32(Console.ReadLine());
+// string num1 = polindrom.ToString();
+// char[] polArr = num1.ToCharArray();
+// Array.Reverse(polArr);
+// num1 = new string(polArr);
+// int polindrom2 = Convert.ToInt32(num1);
+// if (polindrom == polindrom2) Console.WriteLine("Это число Полиндром");
+// else Console.WriteLine("Это число не Полиндром");
+// Console.WriteLine(polindrom2);
 
 // Console.WriteLine(polArr);
 
@@ -259,7 +259,7 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 //     int sum = 1;
 
 //     for (int i = 1; i <= A; i++) sum *= i;
-    
+
 //     Console.WriteLine(sum);
 //     // return sum;
 // }
@@ -267,3 +267,57 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
 
 // Console.WrireLine();
+
+//-----------------------------------------------------------------------
+// Решение ДЗ 4 СЕМИНАР
+//-----------------------------------------------------------------------
+
+// Задача 29: Напишите программу, которая задаёт 
+// массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+//Вариант 1:
+
+// void PrintArray(int N)
+// {
+//     Console.WriteLine("Искомый массив: ");
+
+//     int[] arr = new int[8] { 1, 2, 5, 7, 19, 6, 1, 33 };
+//     int i = 1;
+
+//     while (i <= N)
+//     {
+//         Console.Write(arr[i - 1] + ", ");
+//         i++;
+//     }
+
+//     Console.WriteLine();
+// }
+
+// PrintArray(8);
+
+// Вариант 2 (Random):
+//-----------------------------------------------------------------------
+// void PrintArray(int N)
+// {
+//     Console.WriteLine("Искомый массив: ");
+//     int[] pN = new int[N];
+//     int i = 1;
+//     Random rand = new Random();
+//     while (i <= N)
+//     {
+//         int numN = rand.Next(1, 99);
+//         pN[i - 1] = numN;
+//         Console.Write(pN[i - 1] + ", ");
+//         i++;
+//     }
+//     Console.WriteLine();
+// }
+
+// PrintArray(8);
+
+
+
+
+//------------------------------------------------------------------------
