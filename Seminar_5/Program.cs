@@ -76,23 +76,23 @@
 [10, 11, 12, 13, 14] -> 5
 */
 
-// int length = 50;
-// int[] newArr = new int[length];
-// Random rnd = new Random();
-// int num = 0;
+int length = 50;
+int[] newArr = new int[length];
+Random rnd = new Random();
+int num = 0;
 
-// for (int i = 0; i < length; i++)
-// {
-//     newArr[i] = rnd.Next(-25, 25);
-//     Console.Write(newArr[i] + ",  ");
-//     if (newArr[i] >= 20 & newArr[i] <= 30)
-//     {
-//         num++;
-//     }
-// }
+for (int i = 0; i < length; i++)
+{
+    newArr[i] = rnd.Next(-25, 25);
+    Console.Write(newArr[i] + ",  ");
+    if (newArr[i] >= 20 & newArr[i] <= 30)
+    {
+        num++;
+    }
+}
 
-// Console.WriteLine();
-// Console.WriteLine("num = {0}", num);
+Console.WriteLine();
+Console.WriteLine("num = {0}", num);
 
 /*------------------------------------------------------------------------
 Задача 37: Найдите произведение пар чисел в одномерном массиве. 
@@ -102,33 +102,33 @@
 [6 7 3 6] -> 36 21
 */
 
-int length = 5;
-int[] newArr = new int[5] { 1, 2, 3, 4, 5 };
+// int length = 5;
+// int[] newArr = new int[5] { 1, 2, 3, 4, 5 };
 
-int resultlength = 0;
-if (length % 2 == 0)
-{
-    resultlength = length / 2;
-}
-else
-{
-    resultlength = length / 2 + 1;
-}
+// int resultlength = 0;
+// if (length % 2 == 0)
+// {
+//     resultlength = length / 2;
+// }
+// else
+// {
+//     resultlength = length / 2 + 1;
+// }
 
-int[] result = new int[resultlength];
+// int[] result = new int[resultlength];
 
 
-for (int i = 0; i < length/2; i++)
-{
-    result[i] = newArr[i] * newArr[length - i - 1];
-}
+// for (int i = 0; i < length/2; i++)
+// {
+//     result[i] = newArr[i] * newArr[length - i - 1];
+// }
 
-if (length % 2 != 0)
-{
-    result[resultlength - 1] = newArr[length / 2];
-}
+// if (length % 2 != 0)
+// {
+//     result[resultlength - 1] = newArr[length / 2];
+// }
 
-for (int i = 0; i < resultlength; i++)
-{
-    Console.Write(result[i] + " ");
-}
+// for (int i = 0; i < resultlength; i++)
+// {
+//     Console.Write(result[i] + " ");
+// }
