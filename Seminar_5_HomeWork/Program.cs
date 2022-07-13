@@ -28,7 +28,7 @@ int quontEvenDigit(int length)
 Console.WriteLine();
 Console.WriteLine("Решение Задачи № 34:");
 
-// // quontEvenDigit(10);
+quontEvenDigit(10);
 
 // /*------------------------------------------------------------------------
 // Задача 36: 
