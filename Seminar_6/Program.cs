@@ -26,13 +26,21 @@
 
 // Задача 45
 
-int [] arr1 = new int [5] {1,2,3,4,5};
-int [] arr2 = new int [5];
+int[] arr = new int[5] { 1, 2, 3, 4, 5 };
 
-for(int i =0; i<arr1.Length;i++)
+int[] getArrayCopy(int[] arr)
 {
-arr2[i] = arr1[i];
-Console.Write(arr2[i] + " ");
+    int N = arr.Length;
+    int[] copy = new int[N];
+
+    for (int i = 0; i < N; i++)
+    {
+        copy[i] = arr[i];
+        Console.Write(copy[i] + " ");
+    }
+    
+    return copy;
 }
 
+getArrayCopy(arr);
 
