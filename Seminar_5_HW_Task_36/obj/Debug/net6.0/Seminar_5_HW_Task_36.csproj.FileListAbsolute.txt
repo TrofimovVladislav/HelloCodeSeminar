@@ -1,0 +1,15 @@
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\bin\Debug\net6.0\Seminar_5_HW_Task_36.exe
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\bin\Debug\net6.0\Seminar_5_HW_Task_36.deps.json
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\bin\Debug\net6.0\Seminar_5_HW_Task_36.runtimeconfig.json
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\bin\Debug\net6.0\Seminar_5_HW_Task_36.dll
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\bin\Debug\net6.0\Seminar_5_HW_Task_36.pdb
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.csproj.AssemblyReference.cache
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.AssemblyInfoInputs.cache
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.AssemblyInfo.cs
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.csproj.CoreCompileInputs.cache
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.dll
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\refint\Seminar_5_HW_Task_36.dll
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.pdb
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\Seminar_5_HW_Task_36.genruntimeconfig.cache
+C:\GB\HelloCodeSeminar\Seminar_5_HW_Task_36\obj\Debug\net6.0\ref\Seminar_5_HW_Task_36.dll
