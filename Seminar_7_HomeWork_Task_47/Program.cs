@@ -6,7 +6,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-Console.WriteLine("Введите поочередно количество строк и столбцов массива");
+Console.WriteLine("Введите количество строк M и столбцов N:");
 int M = Convert.ToInt32(Console.ReadLine());
 int N = Convert.ToInt32(Console.ReadLine());
 double [,] array = new double [M, N];
