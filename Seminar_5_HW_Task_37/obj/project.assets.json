@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_36\\Seminar_5_HW_Task_36.csproj",
+      "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_37\\Seminar_5_HW_Task_36.csproj",
       "projectName": "Seminar_5_HW_Task_36",
-      "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_36\\Seminar_5_HW_Task_36.csproj",
+      "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_37\\Seminar_5_HW_Task_36.csproj",
       "packagesPath": "C:\\Users\\twlad\\.nuget\\packages\\",
-      "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_36\\obj\\",
+      "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_5_HW_Task_37\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\twlad\\AppData\\Roaming\\NuGet\\NuGet.Config"

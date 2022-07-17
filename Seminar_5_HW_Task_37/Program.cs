@@ -41,9 +41,12 @@ int sum = 0;
 
 for (int i = 0; i < N; i++)
 {
-    arr[i] = rnd.Next(100, 1000);
-    if (i % 2) // Запись вместо i % 2 = 1 т.к. результат i % 2 условно четный.
+    arr[i] = rnd.Next(-10, 10);
+    Console.Write(arr[i] + " ");
+
+    if (i % 2 == 1) // Запись вместо i % 2 = 1 т.к. результат i % 2 условно четный.
     {
         sum += arr[i];
+        Console.WriteLine(sum);
     }
 }
