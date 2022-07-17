@@ -128,6 +128,7 @@
 // 8 4 2 4
 // Сумма элементов главной диагонали: 1+9+2 = 12
 
+Console.WriteLine("Введите ширину и длину массива.");
 int M = Convert.ToInt32(Console.ReadLine());
 int N = Convert.ToInt32(Console.ReadLine());
 int[,] array = new int[M, N];
@@ -148,4 +149,4 @@ for (int i = 0; i < M; i++)
     }
     Console.WriteLine();
 }
-Console.WriteLine("Sum: {0}", sum);
+Console.WriteLine("Сумма элементов главной диагонали массива = {0}", sum);
