@@ -1,0 +1,15 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<< HEAD:Seminar_6_HW_Task_41/obj/Debug/net6.0/Seminar_6_HW_Task_41.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = Seminar_6_HW_Task_41
+build_property.ProjectDir = d:\VSC\HelloCodeSeminar\Seminar_6_HW_Task_41\
+=======
+build_property.RootNamespace = Seminar_7
+build_property.ProjectDir = c:\GB\HelloCodeSeminar\Seminar_7\
+>>>>>>> ae894e4442bd3cb91deac88f76b0306d545b7b57:Seminar_7/obj/Debug/net6.0/Seminar_7.GeneratedMSBuildEditorConfig.editorconfig
