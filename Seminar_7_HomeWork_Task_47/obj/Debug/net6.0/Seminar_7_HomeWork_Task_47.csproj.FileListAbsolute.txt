@@ -1,0 +1,15 @@
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.csproj.AssemblyReference.cache
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.AssemblyInfoInputs.cache
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.AssemblyInfo.cs
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.csproj.CoreCompileInputs.cache
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\bin\Debug\net6.0\Seminar_7_HomeWork_Task_47.exe
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\bin\Debug\net6.0\Seminar_7_HomeWork_Task_47.deps.json
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\bin\Debug\net6.0\Seminar_7_HomeWork_Task_47.runtimeconfig.json
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\bin\Debug\net6.0\Seminar_7_HomeWork_Task_47.dll
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\bin\Debug\net6.0\Seminar_7_HomeWork_Task_47.pdb
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.dll
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\refint\Seminar_7_HomeWork_Task_47.dll
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.pdb
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\Seminar_7_HomeWork_Task_47.genruntimeconfig.cache
+C:\GB\HelloCodeSeminar\Seminar_7_HomeWork_Task_47\obj\Debug\net6.0\ref\Seminar_7_HomeWork_Task_47.dll
