@@ -75,19 +75,19 @@
 //             // будет ожидать ввода правильного условия (пустой return)
 // }
 
-int[,] GetArray(int m, int n, int minRandom, int maxRandom)
-{
-    int[,] result = new int[m, n];
-    for (int i = 0; i < result.GetLength(0); i++)
-    {
-        for (int j = 0; j < result.GetLength(1); j++)
-        {
-            result[i, j] = new Random().Next(minRandom, maxRandom + 1);
-        }
-    }
+// int[,] GetArray(int m, int n, int minRandom, int maxRandom)
+// {
+//     int[,] result = new int[m, n];
+//     for (int i = 0; i < result.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < result.GetLength(1); j++)
+//         {
+//             result[i, j] = new Random().Next(minRandom, maxRandom + 1);
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
 // int[,] array = GetArray(rows, columns, 0, 10);
 
