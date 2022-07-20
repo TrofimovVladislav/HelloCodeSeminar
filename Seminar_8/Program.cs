@@ -27,7 +27,7 @@
 
 // int[,] array = GetArray(rows, columns, 0, 10);
 
-// void PrintArray(int [,] inputArray) // пример метода рпо выводу массива на печать
+// void PrintArray(int [,] inputArray) // пример метода по выводу массива на печать
 // {
 //     for (int i = 0; i < inputArray.GetLength(0); i++)
 //     {
