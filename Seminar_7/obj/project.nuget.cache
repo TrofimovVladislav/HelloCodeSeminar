@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "xCLr/0TcBR9UjSdkp7lFeRyCppo0VYCQW0ETw4cqRHM5T2BnCREKt92TfK0cCwRPZRg1mIU0l2jjWXqs2twTnA==",
   "success": true,
   "projectFilePath": "D:\\VSC\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj",
+=======
+  "dgSpecHash": "HmrtqkaBPhuzu2Jt5qgdm/0LMfV/vmcxUNzEIMFGrZUP+43Pf3+Nw+syLCIwqRZTOomRE8zdle8ZKMU/ZewW0Q==",
+  "success": true,
+  "projectFilePath": "C:\\GB\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj",
+>>>>>>> 9f992193d0ad23faa9462d176c291f9291ad5e2f
   "expectedPackageFiles": [],
   "logs": []
 }

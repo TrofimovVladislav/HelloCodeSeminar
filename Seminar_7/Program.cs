@@ -128,86 +128,25 @@
 // 8 4 2 4
 // Сумма элементов главной диагонали: 1+9+2 = 12
 
-// Console.WriteLine("Введите ширину и длину массива.");
-// int M = Convert.ToInt32(Console.ReadLine());
-// int N = Convert.ToInt32(Console.ReadLine());
-// int[,] array = new int[M, N];
+Console.WriteLine("Введите ширину и длину массива.");
+int M = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
+int[,] array = new int[M, N];
 
-// int sum = 0;
-// Random rnd = new Random();
+int sum = 0;
+Random rnd = new Random();
 
-// for (int i = 0; i < M; i++)
-// {
-//     for (int j = 0; j < N; j++)
-//     {
-//         array[i, j] = rnd.Next(-10, 10);
-//         if (i == j)
-//         {
-//             sum = sum + array[i, j];
-//         }
-//         Console.Write(array[i, j] + " ");
-//     }
-//     Console.WriteLine();
-// }
-// Console.WriteLine("Сумма элементов главной диагонали массива = {0}", sum);
-
-// Задача 54:
-//  Задайте двумерный массив. Напишите программу,  которая упорядочит 
-//  по убыванию элементы каждой строки двумерного массива.
-
-// Например, задан массив:
-// 1 4 7 2
-// 5 9 2 3
-// 8 4 2 4
-
-// В итоге получается вот такой массив:
-// 1 2 4 7
-// 2 3 5 9
-// 2 4 4 8
-
-// Console.WriteLine("Введите размер массива: количество строк M и количество столбцов N");
-// int M = Convert.ToInt32(Console.ReadLine());
-// int N = Convert.ToInt32(Console.ReadLine());
-
-// int[,] array = new int[3, 4] { { 1, 4, 7, 2 }, { 5, 9, 2, 3 }, { 8, 4, 2, 4 } };
-// // Random rnd = new Random();
-
-// for (int i = 0; i < 1; i++)
-// {
-//     for (int j = 0; j < N; j++)
-//     {
-//         // array [i, j] = rnd.Next(1,10);
-//         // Console.Write(array[0, j] + " ");
-//     }
-//     Console.WriteLine();
-// }
-
-int [,] rangeArray(int M, int N)
+for (int i = 0; i < M; i++)
 {
-    // Console.WriteLine("Введите размер массива: количество строк M и количество столбцов N");
-    // M = Convert.ToInt32(Console.ReadLine());
-    // N = Convert.ToInt32(Console.ReadLine());
-    int[,] array = new int[3, 4] { { 1, 4, 7, 2 }, { 5, 9, 2, 3 }, { 8, 4, 2, 4 } };
-
-    for (int i = 0; i < 1; i++)
+    for (int j = 0; j < N; j++)
     {
-        for (int j = 0; j < N; j++)
+        array[i, j] = rnd.Next(-10, 10);
+        if (i == j)
         {
-            int arrMin = array[0, 0];
-            if (array[0, j] < arrMin)
-            {
-                int temp = arrMin;
-                arrMin = array[0, j];
-                array[0, j] = temp;
-            }
-            // Console.WriteLine(array[i,j]);
-            Console.WriteLine();
-            Console.WriteLine(array[0,j]);
+            sum = sum + array[i, j];
         }
-        Console.WriteLine();
-        return;
+        Console.Write(array[i, j] + " ");
     }
-
+    Console.WriteLine();
 }
-rangeArray(3, 4);
-
+Console.WriteLine("Сумма элементов главной диагонали массива = {0}", sum);

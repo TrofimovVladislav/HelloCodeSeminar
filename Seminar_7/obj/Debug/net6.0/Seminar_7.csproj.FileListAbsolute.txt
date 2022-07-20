@@ -13,6 +13,7 @@ C:\GB\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\refint\Seminar_7.dll
 C:\GB\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.pdb
 C:\GB\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.genruntimeconfig.cache
 C:\GB\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\ref\Seminar_7.dll
+<<<<<<< HEAD
 D:\VSC\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.csproj.AssemblyReference.cache
 D:\VSC\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.GeneratedMSBuildEditorConfig.editorconfig
 D:\VSC\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.AssemblyInfoInputs.cache
@@ -28,3 +29,5 @@ D:\VSC\HelloCodeSeminar\Seminar_7\bin\Debug\net6.0\Seminar_7.dll
 D:\VSC\HelloCodeSeminar\Seminar_7\bin\Debug\net6.0\Seminar_7.pdb
 D:\VSC\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\Seminar_7.genruntimeconfig.cache
 D:\VSC\HelloCodeSeminar\Seminar_7\obj\Debug\net6.0\ref\Seminar_7.dll
+=======
+>>>>>>> 9f992193d0ad23faa9462d176c291f9291ad5e2f

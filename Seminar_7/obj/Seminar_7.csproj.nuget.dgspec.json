@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\VSC\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\GB\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj": {}
+  },
+  "projects": {
+    "C:\\GB\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj",
+        "projectName": "Seminar_7",
+        "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_7\\Seminar_7.csproj",
+        "packagesPath": "C:\\Users\\twlad\\.nuget\\packages\\",
+        "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_7\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\twlad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 9f992193d0ad23faa9462d176c291f9291ad5e2f
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +69,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+>>>>>>> 9f992193d0ad23faa9462d176c291f9291ad5e2f
         }
       }
     }
