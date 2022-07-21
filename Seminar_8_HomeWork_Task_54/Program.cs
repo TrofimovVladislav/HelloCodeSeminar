@@ -31,7 +31,7 @@
 //     Console.WriteLine();
 // }
 
-int[,] inputArray = new int[3, 4] { { 3, 4, 7, 2 }, { 5, 9, 2, 3 }, { 8, 4, 2, 4 } };
+int[,] inputArray = new int[3, 4] { { 1, 4, 7, 2 }, { 5, 9, 2, 3 }, { 8, 4, 2, 4 } };
 int rows = 3;
 int columns = 4;
 
