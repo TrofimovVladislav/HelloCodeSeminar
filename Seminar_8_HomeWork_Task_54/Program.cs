@@ -58,7 +58,7 @@ void SortMatrix(int[,] matrix, int rows, int columns)
         {
             for (int k = 0; k < rows; k++)
             {
-                if (matrix[k, j] > matrix[k, j + 1])
+                if (matrix[k, j] < matrix[k, j + 1])
                 {
                     int temp = matrix[k, j];
                     matrix[k, j] = matrix[k, j + 1];
