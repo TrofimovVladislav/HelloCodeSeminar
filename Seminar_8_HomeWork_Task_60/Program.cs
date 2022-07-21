@@ -17,7 +17,7 @@ int page = Convert.ToInt32(Console.ReadLine());
 
 int[,,] inputArray = new int[rows, columns, page];
 
-Random rnd = new Random(); 
+Random rnd = new Random();
 
 for (int i = 0; i < inputArray.GetLength(0); i++)
 {
@@ -31,24 +31,21 @@ for (int i = 0; i < inputArray.GetLength(0); i++)
 }
 Console.WriteLine();
 
-void PrintArray(int[, ,] inputArray)
+void PrintArray(int[,,] inputArray)
 {
     for (int i = 0; i < inputArray.GetLength(0); i++)
     {
-        // Console.Write("Массив {0} \t", i);
+        // Console.WriteLine();
         for (int j = 0; j < inputArray.GetLength(1); j++)
         {
 
             for (int k = 0; k < inputArray.GetLength(2); k++)
             {
                 Console.Write("{0} ({1}, {2}, {3}) \t", inputArray[i, j, k], i, j, k);
-                // Console.WriteLine();
             }
-            Console.WriteLine();
         }
         Console.WriteLine();
     }
-    Console.WriteLine("\n");
 }
 
 PrintArray(inputArray);

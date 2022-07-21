@@ -13,20 +13,41 @@
 // 2 3 5 9
 // 2 4 4 8
 
-int[,] inputArray = new int[3, 4] { { 3, 4, 7, 2 }, { 5, 9, 2, 3 }, { 8, 4, 2, 4 } };
-int rows = 3;
-int columns = 4;
+
+Console.WriteLine("Ведите количество строк массива: ");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ведите количество строк массива: ");
+int columns = Convert.ToInt32(Console.ReadLine());
+
+int[,] GetArray(int rows, int columns, int minRandom, int maxRandom)
+{
+    int[,] array = new int[rows, columns];
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            array[i, j] = new Random().Next(minRandom, maxRandom + 1);
+        }
+    }
+
+    return array;
+}
+
+int[,] inputArray = GetArray(rows, columns, 0, 10);
+
 void PrintMatrix(int[,] matrix, int rows, int columns)
 {
-    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int i = 0; i < rows; i++)
         {
-            Console.Write(inputArray[i, j] + "\t");
+            for (int j = 0; j < columns; j++)
+            {
+                Console.Write(matrix[i, j] + "\t");
+            }
+            Console.WriteLine();
         }
         Console.WriteLine();
     }
-    Console.WriteLine();
 }
 
 void SortMatrix(int[,] matrix, int rows, int columns)
@@ -48,6 +69,7 @@ void SortMatrix(int[,] matrix, int rows, int columns)
     }
 }
 
+GetArray(rows, columns, 0, 10);
 PrintMatrix(inputArray, rows, columns);
 SortMatrix(inputArray, rows, columns);
 PrintMatrix(inputArray, rows, columns);

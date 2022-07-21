@@ -2,43 +2,43 @@
 // Задайте двумерный массив. Напишите программу, которая поменяет 
 // местами первую и последнюю строку массива.
 
-// Console.WriteLine("Ведите количество строк массива: ");
-// // int rows = int.Parse(Console.ReadLine()); // аналог Convert.ToInt32 
-// int rows = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Ведите количество строк массива: ");
-// int columns = Convert.ToInt32(Console.ReadLine());
-// /// summary (описание методов, обозначается трмя ///)
-// /// матрица (двумерный массив) задается как m на n, 
-// /// m - количество строк, n - количество столбцов.
-// /// minRandom, maxRandom
-// int[,] GetArray(int m, int n, int minRandom, int maxRandom) // пример метода на вывод двумерного массива
-// {
-//     int[,] result = new int[m, n]; // m имеет начальный индекс - 0, n - индекс 1.
-//     for (int i = 0; i < result.GetLength(0); i++) // проходим цикл по строкам
-//     {
-//         for (int j = 0; j < result.GetLength(1); j++)
-//         {
-//             result[i, j] = new Random().Next(minRandom, maxRandom + 1);
-//         }
-//     }
+Console.WriteLine("Ведите количество строк массива: ");
+// int rows = int.Parse(Console.ReadLine()); // аналог Convert.ToInt32 
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ведите количество строк массива: ");
+int columns = Convert.ToInt32(Console.ReadLine());
+/// summary (описание методов, обозначается трмя ///)
+/// матрица (двумерный массив) задается как m на n, 
+/// m - количество строк, n - количество столбцов.
+/// minRandom, maxRandom
+int[,] GetArray(int m, int n, int minRandom, int maxRandom) // пример метода на вывод двумерного массива
+{
+    int[,] result = new int[m, n]; // m имеет начальный индекс - 0, n - индекс 1.
+    for (int i = 0; i < result.GetLength(0); i++) // проходим цикл по строкам
+    {
+        for (int j = 0; j < result.GetLength(1); j++)
+        {
+            result[i, j] = new Random().Next(minRandom, maxRandom + 1);
+        }
+    }
 
-//     return result;
-// }
+    return result;
+}
 
-// int[,] array = GetArray(rows, columns, 0, 10);
+int[,] array = GetArray(rows, columns, 0, 10);
 
-// void PrintArray(int [,] inputArray) // пример метода по выводу массива на печать
-// {
-//     for (int i = 0; i < inputArray.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < inputArray.GetLength(1); j++)
-//         {
-//          Console.Write(inputArray[i,j] + "\t");    
-//         }
-//         Console.WriteLine();
-//     }
-// }
-// PrintArray(array);
+void PrintArray(int [,] inputArray) // пример метода по выводу массива на печать
+{
+    for (int i = 0; i < inputArray.GetLength(0); i++)
+    {
+        for (int j = 0; j < inputArray.GetLength(1); j++)
+        {
+         Console.Write(inputArray[i,j] + "\t");    
+        }
+        Console.WriteLine();
+    }
+}
+PrintArray(array);
 
 // void ChangeRows(int [,] matrix)
 // {
@@ -159,47 +159,47 @@
 // 2 2 6
 // 3 4 7
 
-int rows = 3;
-int columns = 3;
+// int rows = 3;
+// int columns = 3;
 
-int[,] matrix = new int[rows, columns];
+// int[,] matrix = new int[rows, columns];
 
-int minValue = int.MaxValue; // matrix [0, 0]
-int indexRows = 0;           // индекс строки с минималным элементом
-int indexColumns = 0;        // индекс столбца с минимальным элементом
+// int minValue = int.MaxValue; // matrix [0, 0]
+// int indexRows = 0;           // индекс строки с минималным элементом
+// int indexColumns = 0;        // индекс столбца с минимальным элементом
 
-for (int i = 0; i < matrix.GetLength(0); i++) // rows
-{
-    for (int j = 0; j < matrix.GetLength(1); j++) // columns
-    {
-        matrix[i, j] = new Random().Next(11); // [0, 10]
-        Console.Write(matrix[i, j] + "\t");
-        if (minValue > matrix[i, j])
-        {
-            minValue = matrix[i, j];
-            indexRows = i;
-            indexColumns = j;
-        }
-    }
-    Console.WriteLine();
-}
-Console.WriteLine("Минимальный элемент: " + minValue); // just for testing
+// for (int i = 0; i < matrix.GetLength(0); i++) // rows
+// {
+//     for (int j = 0; j < matrix.GetLength(1); j++) // columns
+//     {
+//         matrix[i, j] = new Random().Next(11); // [0, 10]
+//         Console.Write(matrix[i, j] + "\t");
+//         if (minValue > matrix[i, j])
+//         {
+//             minValue = matrix[i, j];
+//             indexRows = i;
+//             indexColumns = j;
+//         }
+//     }
+//     Console.WriteLine();
+// }
+// Console.WriteLine("Минимальный элемент: " + minValue); // just for testing
 
-// Здесь вместо matrix.GetLength(0) применяем rows, т.е. уже известное значение 
-// переменнойБ чтобы не нагружать код
-// Или ввести пременную длины массива int sizeRows = matrix.GetLength(0);
-for (int i = 0; i < rows; i++)
-{
-    if (i != indexRows)
-    {
-        for (int j = 0; j < columns; j++)
-        {
-            if (j != indexColumns)
-            {
-                Console.Write(matrix[i, j] + "\t");
-            }
-        }
-        Console.WriteLine();
-    }
-}
+// // Здесь вместо matrix.GetLength(0) применяем rows, т.е. уже известное значение 
+// // переменнойБ чтобы не нагружать код
+// // Или ввести пременную длины массива int sizeRows = matrix.GetLength(0);
+// for (int i = 0; i < rows; i++)
+// {
+//     if (i != indexRows)
+//     {
+//         for (int j = 0; j < columns; j++)
+//         {
+//             if (j != indexColumns)
+//             {
+//                 Console.Write(matrix[i, j] + "\t");
+//             }
+//         }
+//         Console.WriteLine();
+//     }
+// }
 
