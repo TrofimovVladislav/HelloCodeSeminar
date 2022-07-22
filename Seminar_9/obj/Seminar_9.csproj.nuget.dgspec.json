@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj": {}
+    "C:\\GB\\HelloCodeSeminar\\Seminar_9\\Seminar_9.csproj": {}
   },
   "projects": {
-    "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj": {
+    "C:\\GB\\HelloCodeSeminar\\Seminar_9\\Seminar_9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
-        "projectName": "Seminar_8_HomeWork_Task_58",
-        "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
+        "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_9\\Seminar_9.csproj",
+        "projectName": "Seminar_9",
+        "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_9\\Seminar_9.csproj",
         "packagesPath": "C:\\Users\\twlad\\.nuget\\packages\\",
-        "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\obj\\",
+        "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\twlad\\AppData\\Roaming\\NuGet\\NuGet.Config"

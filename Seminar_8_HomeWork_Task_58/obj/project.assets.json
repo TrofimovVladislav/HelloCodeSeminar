@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Бух\\.nuget\\packages\\": {}
+    "C:\\Users\\twlad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
+      "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
       "projectName": "Seminar_8_HomeWork_Task_58",
-      "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
-      "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
-      "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\obj\\",
+      "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\Seminar_8_HomeWork_Task_58.csproj",
+      "packagesPath": "C:\\Users\\twlad\\.nuget\\packages\\",
+      "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_8_HomeWork_Task_58\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\twlad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
