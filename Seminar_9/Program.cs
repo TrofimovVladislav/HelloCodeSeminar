@@ -43,10 +43,10 @@
 // M = 4; N = 8 -> "4, 6, 7, 8"
 
 Console.Write("Введите N");
-int N = Convert.ToInt32(Console.ReadLine());
+int M = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите N");
 int N = Convert.ToInt32(Console.ReadLine());
-string PrintNumbers(int sart, int end)
+string PrintNumbers(int start, int end)
 {
     // Базовый случай
     if(start == end) return start.ToString();
