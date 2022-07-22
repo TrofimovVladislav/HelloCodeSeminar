@@ -62,13 +62,13 @@ Console.WriteLine(PrintNumbers(M, N));
 // 453 -> 12
 // 45 -> 9
 
-int number = Convert.ToInt32(Console.ReadLine());
+// int number = Convert.ToInt32(Console.ReadLine());
 
-int SumNumbers(int num)
-{
-if(num==0) return 0; //Базовый случай
-return (number % + SumNumbers(number/10)); // рекурсивный случай    
-}
+// int SumNumbers(int num)
+// {
+// if(num==0) return 0; //Базовый случай
+// return (number % + SumNumbers(number/10)); // рекурсивный случай    
+// }
 
 // Напишите программу, которая на вход принимает два числа A и B, 
 // и возводит число А в целую степень B с помощью рекурсии.
