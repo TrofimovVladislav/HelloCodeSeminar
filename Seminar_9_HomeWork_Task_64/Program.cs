@@ -7,26 +7,16 @@
 
 // M = 4; N = 8. -> ""4, 6, 7, 8""
 
-Console.WriteLine("Введите число M:");
+
+Console.Write("Введите M: ");
 int M = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число N:");
+Console.Write("Введите N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int[,] natNumbers = new int[M, N];
-
-for (int i = 0; i < natNumbers.GetLength(1); i++)
-{   
-    string Error = (" Ошибка ввода. Число M не может быть " +
-    "меньше ноля и больше числа N.\n Введите другое число.");
-    int num = M;
-    if (M <= 0 || M >= N)
-    {
-        Console.WriteLine(Error);
-        return;
-    }
-
-    else num = num + i;
-    Console.Write(num + " ");
-    
+string PrintNumbers(int start, int end)
+{
+    if (start == end) return start.ToString();
+    return (start + ", " + PrintNumbers(start + 1, end));
 }
-Console.WriteLine();
+
+Console.WriteLine(PrintNumbers(M, N));
