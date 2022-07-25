@@ -11,26 +11,11 @@ int M = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int SumRangeOfNumbers(int start, int end)
+int NumbersSum(int start, int end)
 {
-    int sum = 0;
-    for (int i = 0; i <= N; i++) sum = sum + i;
-    // if (start == end) return start;
-    // return (start + SumRangeOfNumbers(start, end));
-    return sum;
+    if (start == end) return start;
+    return (start + NumbersSum(start + 1, end));
 }
 
-Console.WriteLine(SumRangeOfNumbers(M, N));
-
-
-
-//     int sum = 0;
-//     for (int i = 0; i <= N; i++)
-//     {
-//         sum = sum + i;
-//     }
-//     return sum;
-//     // return (start + SumRangeOfNumbers(start + 1, 0));
-// }
-// // SumRangeOfNumbers (M, N);
-// Console.WriteLine(SumRangeOfNumbers(M, N));
+Console.WriteLine($"Сумма чисел от {M} до {N} = {NumbersSum(M, N)};");
+NumbersSum(M, N);
