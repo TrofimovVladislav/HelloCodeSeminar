@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GB\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj": {}
+    "D:\\VSC\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj": {}
   },
   "projects": {
-    "C:\\GB\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj": {
+    "D:\\VSC\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GB\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj",
+        "projectUniqueName": "D:\\VSC\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj",
         "projectName": "Seminar_9_HomeWork_Task_64",
-        "projectPath": "C:\\GB\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj",
-        "packagesPath": "C:\\Users\\twlad\\.nuget\\packages\\",
-        "outputPath": "C:\\GB\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\obj\\",
+        "projectPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\Seminar_9_HomeWork_Task_64.csproj",
+        "packagesPath": "C:\\Users\\Бух\\.nuget\\packages\\",
+        "outputPath": "D:\\VSC\\HelloCodeSeminar\\Seminar_9_HomeWork_Task_64\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\twlad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Бух\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

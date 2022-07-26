@@ -6,9 +6,9 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-Console.Write("Введите M: ");
+Console.Write("\nВведите число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите N: ");
+Console.Write("Введите число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 int NumbersSum(int start, int end)
@@ -17,4 +17,4 @@ int NumbersSum(int start, int end)
     return (start + NumbersSum(start + 1, end));
 }
 
-Console.WriteLine($"Сумма чисел от {M} до {N} = " + NumbersSum(M, N));
+Console.WriteLine($"Сумма чисел от {M} до {N} = " + NumbersSum(M, N) + "\n");

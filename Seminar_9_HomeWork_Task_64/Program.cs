@@ -8,7 +8,7 @@
 // M = 4; N = 8. -> ""4, 6, 7, 8""
 
 
-Console.Write("Введите число M: ");
+Console.Write("\nВведите число M: ");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
 int N = Convert.ToInt32(Console.ReadLine());
@@ -19,4 +19,4 @@ string PrintNumbers(int start, int end)
     return (start + ", " + PrintNumbers(start + 1, end));
 }
 
-Console.WriteLine(PrintNumbers(M, N));
+Console.WriteLine($"Числа от {M} до {N}: " +  PrintNumbers(M, N) + "\n");
