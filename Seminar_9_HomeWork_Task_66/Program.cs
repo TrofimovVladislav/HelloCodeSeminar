@@ -17,5 +17,4 @@ int NumbersSum(int start, int end)
     return (start + NumbersSum(start + 1, end));
 }
 
-Console.WriteLine($"Сумма чисел от {M} до {N} = {NumbersSum(M, N)};");
-NumbersSum(M, N);
+Console.WriteLine($"Сумма чисел от {M} до {N} = " + NumbersSum(M, N));
