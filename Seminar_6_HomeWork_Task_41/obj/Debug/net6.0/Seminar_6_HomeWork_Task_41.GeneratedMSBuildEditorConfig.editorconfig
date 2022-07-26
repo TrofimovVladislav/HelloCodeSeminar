@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Seminar_6_HomeWork_Task_41
+<<<<<<< HEAD
 build_property.ProjectDir = D:\VSC\HelloCodeSeminar\Seminar_6_HomeWork_Task_41\
+=======
+build_property.ProjectDir = c:\GB\HelloCodeSeminar\Seminar_6_HomeWork_Task_41\
+>>>>>>> 96f105dedf0d678b382636e138dc79dceed01f29
